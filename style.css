@@ -1,0 +1,40 @@
+.grid-table {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.textView {
+    width: 280px;
+    height: 100px;
+    background-color: rgb(241, 196, 181);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 40px;
+    
+}
+.grid-table input {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(189, 222, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 1px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-table input:hover {
+    background-color: rgb(55, 217, 223);
+}
